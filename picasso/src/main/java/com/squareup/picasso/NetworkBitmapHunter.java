@@ -27,7 +27,7 @@ import static com.squareup.picasso.Picasso.LoadedFrom.NETWORK;
 
 class NetworkBitmapHunter extends BitmapHunter {
   static final int DEFAULT_RETRY_COUNT = 2;
-  private static final int MARKER = 500000;
+  private static final int MARKER = 262144;
 
   private final Downloader downloader;
 
